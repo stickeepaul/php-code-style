@@ -12,5 +12,10 @@
         "name": "Paul Tibbetts",
         "email": "paul.tibbetts@stickee.co.uk"
     }],
-    "require-dev": {}
+    "require-dev": {},
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'running post install command'"
+        ]
+    }
 }
